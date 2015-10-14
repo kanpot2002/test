@@ -103,7 +103,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="/SETNewScoop/j_spring_security_logout">
 											<i class="fa fa-power-off"></i>
 											<span>Logout</span>
 										</a>
