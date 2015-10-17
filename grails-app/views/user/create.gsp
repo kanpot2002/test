@@ -19,7 +19,7 @@
 				<div id="create-user" class="content scaffold-create" role="main">
 					<h1 class="page-header">สร้าง User</h1>
 					<g:if test="${flash.message}">
-						<div class="message" role="status">${flash.message}</div>
+						<div class="alert alert-info" role="alert">${flash.message}</div>
 					</g:if>
 					<g:hasErrors bean="${userInstance}">
 						<ul class="errors" role="alert">

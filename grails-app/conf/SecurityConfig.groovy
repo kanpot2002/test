@@ -1,5 +1,7 @@
 security {
     active = true
-    defaultTargetUrl = '/aaaa'
-    alwaysUseDefault = false
+    successHandler {
+        defaultTargetUrl = '/user'
+        alwaysUseDefault = false
+    }
 }

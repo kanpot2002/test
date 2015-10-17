@@ -25,7 +25,7 @@
                 <div class="box">
                     <div class="box-content">
                         <g:if test='${flash.message}'>
-                            <div class='login_message'>${flash.message}</div>
+                            <div class="alert alert-danger" role="alert">${flash.message}</div>
                         </g:if>
                         <div class="text-center">
                             <h3 class="page-header">SET New Scoop Login Page</h3>

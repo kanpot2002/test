@@ -21,7 +21,7 @@
 				<div id="show-user" class="content scaffold-show" role="main">
 					<h1 class="page-header">แสดงข้อมูล User</h1>
 					<g:if test="${flash.message}">
-						<div class="message" role="status">${flash.message}</div>
+						<div class="alert alert-info" role="alert">${flash.message}</div>
 					</g:if>
 					<table class="table">
 						<g:if test="${userInstance?.username}">

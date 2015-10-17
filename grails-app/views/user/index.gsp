@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <g:if test="${flash.message}">
-                    <div class="message" role="status">${flash.message}</div>
+                    <div class="alert alert-info" role="alert">${flash.message}</div>
                 </g:if>
                 <table class="table table-bordered table-striped table-hover table-heading table-datatable dataTable">
                     <thead>
@@ -38,8 +38,8 @@
                         <g:sortableColumn property="username"
                                           title="${message(code: 'user.username.label', default: 'Username')}"/>
 
-                        <g:sortableColumn property="password"
-                                          title="${message(code: 'user.password.label', default: 'Password')}"/>
+                        %{--<g:sortableColumn property="password"
+                                          title="${message(code: 'user.password.label', default: 'Password')}"/>--}%
 
                         <g:sortableColumn property="accountExpired"
                                           title="${message(code: 'user.accountExpired.label', default: 'Account Expired')}"/>
@@ -63,7 +63,7 @@
                             <td><g:link action="show"
                                         id="${userInstance.id}">${fieldValue(bean: userInstance, field: "username")}</g:link></td>
 
-                            <td>${fieldValue(bean: userInstance, field: "password")}</td>
+                            %{--<td>${fieldValue(bean: userInstance, field: "password")}</td>--}%
 
                             <td><g:formatBoolean boolean="${userInstance.accountExpired}"/></td>
 

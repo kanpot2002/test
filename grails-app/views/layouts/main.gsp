@@ -73,33 +73,9 @@
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="#">
-											<i class="fa fa-user"></i>
-											<span>Profile</span>
-										</a>
-									</li>
-									<li>
-										<a href="ajax/page_messages.html" class="ajax-link">
-											<i class="fa fa-envelope"></i>
-											<span>Messages</span>
-										</a>
-									</li>
-									<li>
-										<a href="ajax/gallery_simple.html" class="ajax-link">
-											<i class="fa fa-picture-o"></i>
-											<span>Albums</span>
-										</a>
-									</li>
-									<li>
-										<a href="ajax/calendar.html" class="ajax-link">
-											<i class="fa fa-tasks"></i>
-											<span>Tasks</span>
-										</a>
-									</li>
-									<li>
-										<a href="#">
+										<a href="/SETNewScoop/user/changePassword">
 											<i class="fa fa-cog"></i>
-											<span>Settings</span>
+											<span>Change Password</span>
 										</a>
 									</li>
 									<li>

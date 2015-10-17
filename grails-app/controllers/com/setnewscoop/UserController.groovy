@@ -7,7 +7,9 @@ import grails.transaction.Transactional
 @Transactional(readOnly = true)
 class UserController {
 
-    static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
+    def springSecurityService;
+
+    static allowedMethods = [changePassword: ["POST","GET"] ,save: "POST", update: "POST", delete: "POST"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -127,5 +129,37 @@ class UserController {
             }
             '*' { render status: NOT_FOUND }
         }
+    }
+
+    @Transactional
+    def changePassword(){
+        def id = springSecurityService.currentUser.id;
+        User user = User.findById(id);
+
+        def newPassword = params.newPassword;
+        def confirmPassword = params.confirmPassword;
+        def errorCode = "";
+
+        if(newPassword!=null && confirmPassword!=null) {
+            if (newPassword == null) newPassword = "";
+            if (confirmPassword == null) confirmPassword = "";
+
+            //A confirm password does not equal a new password -> re-confirm
+            if (!newPassword.equals(confirmPassword)) {
+                errorCode = "1001";
+            } else {
+                user.password = newPassword;
+                if(user.save(flush: true)){
+                    errorCode = "0000";
+                    newPassword = "";
+                }
+                else {
+                    errorCode = "1004";
+                }
+
+            }
+        }
+
+        respond new User(),model: [errorCode:errorCode,newPassword:newPassword,confirmPassword:confirmPassword]
     }
 }
