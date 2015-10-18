@@ -118,7 +118,7 @@
 							<span class="hidden-xs">สมาชิกสหกรณ์</span>
 						</a>
 						<ul class="dropdown-menu">
-							<li><a href="/SETNewScoop/user/create">สมัครสมาชิกสหกรณ์</a></li>
+							<li><a href="/SETNewScoop/member/create">สมัครสมาชิกสหกรณ์</a></li>
 						</ul>
 					</li>
 				</sec:ifAnyGranted>

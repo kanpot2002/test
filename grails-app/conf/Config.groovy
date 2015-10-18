@@ -134,4 +134,3 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/favicon.ico':  ['permitAll']
 ]
 grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/index'
-

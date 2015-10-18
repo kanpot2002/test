@@ -23,7 +23,6 @@ class Member {
     double m_tot_share;
     int q_time;
     Date d_expired;
-    int version;
 
     static mapping = {
         version false
