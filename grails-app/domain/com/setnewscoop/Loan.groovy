@@ -22,6 +22,7 @@ class Loan {
     double m_int_close;
     double m_repay;
 
+
     static mapping = {
         version false
         s_trans column: "s_trans", sqlType: "varchar",length: 6
