@@ -109,6 +109,10 @@
 						<li><a href="/SETNewScoop/user/create">สร้าง User</a></li>
 						<li><a href="/SETNewScoop/user/">รายการ User</a></li>
 					</ul>
+					<a href="/SETNewScoop/queryPage">
+						<i class="fa fa-table"></i>
+						<span class="hidden-xs">Query Page</span>
+					</a>
 				</li>
 				</sec:ifAnyGranted>
 				<sec:ifAnyGranted roles="USER">
@@ -126,11 +130,12 @@
 		</div>
 		<!--Start Content-->
 		<div id="content" class="col-xs-12 col-sm-10">
-			<div class="preloader">
-				%{--<img src="/SETNewScoop/images/devoops_getdata.gif" class="devoops-getdata" alt="preloader"/>--}%
+			%{--<div class="preloader">
+				<img src="/SETNewScoop/images/devoops_getdata.gif" class="devoops-getdata" alt="preloader" style="display: none"/>
+			</div>--}%
+			<div id="ajax-content">
 				<g:layoutBody/>
 			</div>
-			<div id="ajax-content"></div>
 		</div>
 		<!--End Content-->
 	</div>

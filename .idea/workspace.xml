@@ -2,57 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b760f13-f59d-4027-b1bb-d1dd74041f4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/SecurityConfig$_run_closure1$_closure2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__delete_closure13$_closure20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__delete_closure13$_closure21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__delete_closure13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__save_closure10$_closure16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__save_closure10$_closure17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__save_closure10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__update_closure12$_closure18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__update_closure12$_closure19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$__tt__update_closure12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$_changePassword_closure9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController$_notFound_closure8$_closure15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/AsyncController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/AsyncSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/CliTests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Controller.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/DomainClass.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/DomainClass.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Filters.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Filters.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Generic.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Integration.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/RestfulController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/RestfulSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/ScaffoldingController.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Script.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Service.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/Service.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/Spec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/TagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/TagLib.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/Tests.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/testing/UnitTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/artifacts/WebTest.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/_form.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/create.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/edit.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/index.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/renderEditor.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/scaffolding/show.gsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/templates/war/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Member$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Member$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Member$__clinit__closure2.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Member$__clinit__closure2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/QueryPageController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/QueryPageController.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/queryPage/index.gsp" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\Test$__clinit__closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\Test.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__delete_closure11$_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__delete_closure11$_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__delete_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__save_closure9$_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__save_closure9$_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__save_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__update_closure10$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__update_closure10$_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$__tt__update_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_create_closure3.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_delete_closure7.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_edit_closure5.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_index_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_notFound_closure8$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_notFound_closure8$_closure13.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_notFound_closure8.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_save_closure4.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_show_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController$_update_closure6.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__delete_closure11$_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__delete_closure11$_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__delete_closure11.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__delete_closure12$_closure19.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__delete_closure12$_closure20.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__delete_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__save_closure9$_closure14.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__save_closure9$_closure15.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__save_closure9$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__save_closure9.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__update_closure10$_closure16.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__update_closure10$_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__update_closure10.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__update_closure11$_closure17.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$__tt__update_closure11$_closure18.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$_notFound_closure8$_closure12.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Besto\Workspace\SETNewScoop\target\classes\com\setnewscoop\UserController$_notFound_closure8$_closure13.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetMethodTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/asset/pipeline/grails/AssetsTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Member.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Member.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/SecurityConfig$_run_closure1.class" afterPath="$PROJECT_DIR$/target/classes/SecurityConfig$_run_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/Config.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Member.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Member.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/MemberController.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/MemberController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Requestmap.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Requestmap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/RequestmapController.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/RequestmapController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/Role.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/RoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/RoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/setnewscoop/SETNewScoopTagLib.class" afterPath="$PROJECT_DIR$/target/classes/setnewscoop/SETNewScoopTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/User.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserRoleController.class" afterPath="$PROJECT_DIR$/target/classes/com/setnewscoop/UserRoleController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SETNewScoop.iml" afterPath="$PROJECT_DIR$/SETNewScoop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/changePassword.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/changePassword.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/create.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/edit.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.css" afterPath="$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" afterPath="$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" afterPath="$PROJECT_DIR$/target/work/resources/grails-app/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/plugins/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/web-app/js/plugins/tinymce/plugins/emoticons/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/user/show.gsp" afterPath="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/style.css" afterPath="$PROJECT_DIR$/web-app/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/style.min.css" afterPath="$PROJECT_DIR$/web-app/css/style.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/web.xml.tmp" afterPath="$PROJECT_DIR$/target/work/web.xml.tmp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -82,77 +108,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Config.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <file leaf-file-name="QueryPageController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/QueryPageController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.285714" vertical-offset="1853" max-vertical-offset="2397">
-              <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/templates/war/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60504204" vertical-offset="906" max-vertical-offset="1462">
-              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/member/create.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1836734" vertical-offset="437" max-vertical-offset="850">
-              <caret line="32" column="57" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Loan.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0377358" vertical-offset="404" max-vertical-offset="935">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Member.groovy">
-          <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6037736" vertical-offset="357" max-vertical-offset="1020">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/MemberController.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.843137" vertical-offset="705" max-vertical-offset="1853">
-              <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="-5.173913" vertical-offset="204" max-vertical-offset="1275">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="e#25#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/queryPage/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.8367347" vertical-offset="1015" max-vertical-offset="1615">
-              <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+            <state vertical-scroll-proportion="-3.3265307" vertical-offset="500" max-vertical-offset="1105">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-app/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.2150538" vertical-offset="39838" max-vertical-offset="40409">
+              <caret line="2370" column="27" selection-start-line="2370" selection-start-column="27" selection-end-line="2370" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -177,30 +159,35 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/LoginController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/MemberController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/member/index.gsp" />
         <option value="$PROJECT_DIR$/grails-app/taglib/setnewscoop/SETNewScoopTagLib.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/index.gsp" />
         <option value="$PROJECT_DIR$/web-app/js/devoops.js" />
         <option value="C:/Program Files/Java/jdk1.7.0_79/src.zip!/java/util/Set.java" />
         <option value="$PROJECT_DIR$/grails-app/views/user/_form.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/changePassword.gsp" />
-        <option value="$PROJECT_DIR$/web-app/css/style.css" />
-        <option value="$PROJECT_DIR$/web-app/css/style.min.css" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/User.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/UserController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/login/auth.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
         <option value="$PROJECT_DIR$/grails-app/conf/SecurityConfig.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Member.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy" />
         <option value="$PROJECT_DIR$/src/templates/war/web.xml" />
+        <option value="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
+        <option value="$PROJECT_DIR$/web-app/css/style.min.css" />
+        <option value="$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.css" />
+        <option value="$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.min.css" />
+        <option value="$PROJECT_DIR$/web-app/js/plugins/tinymce/plugins/emoticons/plugin.min.js" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/changePassword.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/create.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/edit.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/user/show.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/i18n/messages.properties" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/QueryPageController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/queryPage/index.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/style.css" />
       </list>
     </option>
   </component>
@@ -222,7 +209,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -291,28 +278,6 @@
               <option name="myItemId" value="grails-app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SETNewScoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SETNewScoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -328,25 +293,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="i18n" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SETNewScoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SETNewScoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="grails-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -356,8 +303,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,7 +328,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="D:/Besto/Workspace/SETNewScoop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="LayoutCode.rearrangeEntriesGSP" value="false" />
   </component>
   <component name="RunManager" selected="Grails.Grails:SETNewScoop">
@@ -689,6 +636,9 @@
       <workItem from="1445079227331" duration="176000" />
       <workItem from="1445080369351" duration="10864000" />
       <workItem from="1445141486476" duration="6373000" />
+      <workItem from="1445581861024" duration="9771000" />
+      <workItem from="1445620743094" duration="587000" />
+      <workItem from="1445658825813" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="add logout">
       <created>1444840887740</created>
@@ -708,11 +658,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445091222240</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Besto : delete Useless files">
+      <created>1445585068720</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1445585068720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82661000" />
+    <option name="totallyTimeSpent" value="94360000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -735,7 +691,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -747,7 +703,6 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -766,13 +721,14 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25718608" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32626426" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -793,7 +749,8 @@
     <MESSAGE value="add logout" />
     <MESSAGE value="add Log out" />
     <MESSAGE value="Besto : change redirect URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Besto : change redirect URL" />
+    <MESSAGE value="Besto : delete Useless files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Besto : delete Useless files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -806,86 +763,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/TestController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23480663" vertical-offset="459" max-vertical-offset="1853">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Test.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9565217" vertical-offset="0" max-vertical-offset="255">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/RoleController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.130435" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="821" max-vertical-offset="1428">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/RequestmapController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.4347825" vertical-offset="204" max-vertical-offset="1836">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC5/src/java/grails/plugin/springsecurity/SpringSecurityUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="2760" max-vertical-offset="11713">
-          <caret line="239" column="44" selection-start-line="239" selection-start-column="44" selection-end-line="239" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC5/grails-app/i18n/spring-security-core.properties">
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2357019" vertical-offset="0" max-vertical-offset="577">
-          <caret line="8" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Requestmap.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="850">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/work/plugins/spring-security-core-2.0-RC5/grails-app/views/login/denied.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="398">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -953,13 +834,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Role.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="629">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/assets/stylesheets/main.css">
@@ -1015,111 +896,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/UserRole.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33123028" vertical-offset="14" max-vertical-offset="1700">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/_form.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7894737" vertical-offset="102" max-vertical-offset="1394">
-          <caret line="14" column="88" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="88" />
-          <folding />
-        </state>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="jar://C:/grails-2.5.1/src/grails-datastore-gorm-3.1.5.RELEASE-sources.jar!/org/grails/datastore/gorm/GormInstanceApi.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33246753" vertical-offset="4037" max-vertical-offset="5049">
           <caret line="267" column="12" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371">
-          <caret line="0" column="11578" selection-start-line="0" selection-start-column="11578" selection-end-line="0" selection-end-column="11578" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33153638" vertical-offset="2359" max-vertical-offset="40239">
-          <caret line="146" column="35" selection-start-line="146" selection-start-column="35" selection-end-line="146" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/changePassword.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9183674" vertical-offset="535" max-vertical-offset="1139">
-          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/User.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1691843" vertical-offset="709" max-vertical-offset="1105">
           <caret line="45" column="117" selection-start-line="45" selection-start-column="117" selection-end-line="45" selection-end-column="117" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/UserController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.882353" vertical-offset="2488" max-vertical-offset="2890">
-          <caret line="153" column="37" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6335404" vertical-offset="153" max-vertical-offset="833">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/edit.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8447205" vertical-offset="102" max-vertical-offset="867">
-          <caret line="22" column="63" selection-start-line="22" selection-start-column="63" selection-end-line="22" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/user/show.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5454545" vertical-offset="272" max-vertical-offset="1445">
-          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
-      <provider editor-type-id="ResourceBundle">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6" vertical-offset="886" max-vertical-offset="1428">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/login/auth.gsp">
@@ -1133,76 +937,208 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/member/create.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="850">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/MemberController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="1853">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Member.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="1020">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/war/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60362697" vertical-offset="855" max-vertical-offset="1462">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5112782" vertical-offset="136" max-vertical-offset="1071">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2397">
+          <caret line="105" column="44" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/grails-2.5.1/dist/grails-plugin-gsp-2.5.1-sources.jar!/org/codehaus/groovy/grails/plugins/web/taglib/FormTagLib.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33243242" vertical-offset="506" max-vertical-offset="19312">
+          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/_form.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3877552" vertical-offset="0" max-vertical-offset="1394">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/grails-2.5.1/lib/org.apache.ant/ant/jars/ant-1.9.4.jar!/org/apache/tools/ant/util/ResourceUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7768116" vertical-offset="769" max-vertical-offset="1139">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/grails-2.5.1/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.4.4-sources.jar!/groovy/sql/Sql.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26035" max-vertical-offset="77860">
+          <caret line="1618" column="33" selection-start-line="1618" selection-start-column="33" selection-end-line="1618" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/grails-2.5.1/lib/org.codehaus.groovy/groovy-all/jars/groovy-all-2.4.4-sources.jar!/groovy/sql/GroovyRowResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9686685" vertical-offset="2490" max-vertical-offset="2873">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="0" column="47756" selection-start-line="0" selection-start-column="47756" selection-end-line="0" selection-end-column="47756" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/plugins/tinymce/plugins/emoticons/plugin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="372">
+          <caret line="0" column="207" selection-start-line="0" selection-start-column="207" selection-end-line="0" selection-end-column="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7258065" vertical-offset="2" max-vertical-offset="374">
+          <caret line="16" column="602" selection-start-line="16" selection-start-column="602" selection-end-line="16" selection-end-column="602" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/plugins/justified-gallery/jquery.justifiedgallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33246753" vertical-offset="705" max-vertical-offset="1326">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/plugins/jquery-ui-timepicker-addon/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33236995" vertical-offset="803" max-vertical-offset="16592">
+          <caret line="54" column="286" selection-start-line="54" selection-start-column="286" selection-end-line="54" selection-end-column="286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7162535" vertical-offset="1071" max-vertical-offset="2890">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18230563" vertical-offset="1870" max-vertical-offset="2686">
-          <caret line="114" column="16" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
-          <folding />
+        <state vertical-scroll-proportion="-7.8076925" vertical-offset="2041" max-vertical-offset="2771">
+          <caret line="132" column="16" selection-start-line="132" selection-start-column="12" selection-end-line="134" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/member/create.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/create.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1836734" vertical-offset="437" max-vertical-offset="850">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/MemberController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.843137" vertical-offset="705" max-vertical-offset="1853">
-          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="-2.4285715" vertical-offset="0" max-vertical-offset="799">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/user/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.8367347" vertical-offset="1015" max-vertical-offset="1615">
-          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
-          <folding />
+        <state vertical-scroll-proportion="4.3061223" vertical-offset="364" max-vertical-offset="1581">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="84" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/show.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.285714" vertical-offset="1853" max-vertical-offset="2397">
-          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
-          <folding />
+        <state vertical-scroll-proportion="-3.8163266" vertical-offset="0" max-vertical-offset="1411">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Member.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/changePassword.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61142856" vertical-offset="738" max-vertical-offset="1088">
+          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/user/edit.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45400593" vertical-offset="0" max-vertical-offset="833">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="40" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/i18n/messages.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.780037" vertical-offset="938" max-vertical-offset="1479">
+          <caret line="80" column="62" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/setnewscoop/QueryPageController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6037736" vertical-offset="357" max-vertical-offset="1020">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+        <state vertical-scroll-proportion="-5.173913" vertical-offset="204" max-vertical-offset="1275">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#25#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/queryPage/index.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.3265307" vertical-offset="500" max-vertical-offset="1105">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/domain/com/setnewscoop/Loan.groovy">
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web-app/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0377358" vertical-offset="404" max-vertical-offset="935">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/war/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60504204" vertical-offset="906" max-vertical-offset="1462">
-          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+        <state vertical-scroll-proportion="1.2150538" vertical-offset="39838" max-vertical-offset="40409">
+          <caret line="2370" column="27" selection-start-line="2370" selection-start-column="27" selection-end-line="2370" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1215,7 +1151,7 @@
           <value>
             <GrailsSettings>
               <option name="buildConfigCrc" value="952313554" />
-              <option name="pluginDependenciesCrc" value="1682136675" />
+              <option name="pluginDependenciesCrc" value="-747976210" />
               <option name="properties">
                 <map>
                   <entry key="grails.global.plugins.dir" value="C:\Users\Lenovo\.grails\2.5.1\global-plugins" />
