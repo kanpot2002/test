@@ -133,4 +133,4 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/**/images/**':    ['permitAll'],
 	'/**/favicon.ico':  ['permitAll']
 ]
-grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/index'
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/'

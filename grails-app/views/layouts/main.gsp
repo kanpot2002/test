@@ -109,6 +109,8 @@
 						<li><a href="/SETNewScoop/user/create">สร้าง User</a></li>
 						<li><a href="/SETNewScoop/user/">รายการ User</a></li>
 					</ul>
+				</li>
+				<li class="dropdown">
 					<a href="/SETNewScoop/queryPage">
 						<i class="fa fa-table"></i>
 						<span class="hidden-xs">Query Page</span>
@@ -123,6 +125,16 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="/SETNewScoop/member/create">สมัครสมาชิกสหกรณ์</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle">
+							<i class="fa fa-money"></i>
+							<span class="hidden-xs">สัญญาเงินกู้</span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="/SETNewScoop/loan/addLoan">เพิ่มข้อมูลสัญญาเงินกู้</a></li>
+							<li><a href="/SETNewScoop/loan/index">แก้ไขข้อมูลสัญญาเงินกู้</a></li>
 						</ul>
 					</li>
 				</sec:ifAnyGranted>

@@ -2,8 +2,8 @@ package com.setnewscoop
 
 class Member {
 
-    int id;
-    int i_employee;
+    Integer id;
+    Integer i_employee;
     String n_title;
     String n_first;
     String n_last;
@@ -11,7 +11,7 @@ class Member {
     String a_address1;
     String a_address2;
     String e_tel;
-    int f_status;
+    Integer f_status;
     String e_status;
     String n_company;
     String e_position;
@@ -19,9 +19,9 @@ class Member {
     String e_dep;
     String e_off_tel;
     Date d_member;
-    double m_share;
-    double m_tot_share;
-    int q_time;
+    Double m_share;
+    Double m_tot_share;
+    Integer q_time;
     Date d_expired;
 
     static mapping = {
@@ -50,5 +50,25 @@ class Member {
     }
 
     static constraints = {
+        i_employee nullable:true
+        n_title nullable:true
+        n_first nullable:true
+        n_last nullable:true
+        d_birth nullable:true
+        a_address1 nullable:true
+        a_address2 nullable:true
+        e_tel nullable:true
+        f_status nullable:true
+        e_status nullable:true
+        n_company nullable:true
+        e_position nullable:true
+        e_div nullable:true
+        e_dep nullable:true
+        e_off_tel nullable:true
+        d_member nullable:true
+        m_share nullable:true
+        m_tot_share nullable:true
+        q_time nullable:true
+        d_expired nullable:true
     }
 }

@@ -1,0 +1,51 @@
+package com.setnewscoop
+
+class Loan {
+
+    String id;
+    Date d_trans;
+    Date d_begin;
+    Double m_loan;
+    Integer q_month;
+    Double m_paid_month;
+    Double m_tot_return;
+    String i_guarantee1;
+    String i_guarantee2;
+    Double m_saving;
+    String e_collateral;
+    String e_reason;
+    String f_status;
+    Date d_close;
+    Boolean f_special;
+    Integer q_time;
+    Double m_int_close;
+    Double m_repay;
+    Member member;
+
+
+    static mapping = {
+        version false
+        member column: "i_member",sqlType: "varchar",length: 4
+        id generator:'assigned', column: "s_trans", sqlType: "varchar",length: 6
+        d_trans column: "d_trans", sqlType: "datetime"
+        d_begin column: "d_begin", sqlType: "datetime"
+        m_loan column: "m_loan", sqlType: "double"
+        q_month column: "q_month", sqlType: "smallint",length: 6
+        m_paid_month column: "m_paid_month", sqlType: "double"
+        m_tot_return column: "m_tot_return", sqlType: "double"
+        i_guarantee1 column: "i_guarantee1",sqlType: "varchar",length: 4
+        i_guarantee2 column: "i_guarantee2", sqlType: "varchar",length: 4
+        m_saving column: "m_saving", sqlType: "double"
+        e_collateral column: "e_collateral", sqlType: "varchar",length: 30
+        e_reason column: "e_reason", sqlType: "varchar",length: 30
+        f_status column: "f_status", sqlType: "varchar",length: 1
+        d_close column: "d_close", sqlType: "datetime"
+        f_special column: "f_special", sqlType: "bit",length: 1
+        q_time column: "q_time" , sqlType: "int",length: 11
+        m_int_close column: "m_int_close", sqlType: "double"
+        m_repay column: "m_repay", sqlType: "double"
+    }
+
+    static constraints = {
+    }
+}
