@@ -16,10 +16,17 @@
 	</div>
 	<div class="well">
 		<div class="content scaffold-create" role="main">
-			<h1 class="page-header">เพิ่มข้อมูลสัญญาเงินกู้</h1>
-			<g:render template="infoForm"/>
-			<br/>
-			<g:render template="form"/>
+			<g:form class="form-horizontal" action="save">
+				<h1 class="page-header">เพิ่มข้อมูลสัญญาเงินกู้</h1>
+				<g:render template="infoForm"/>
+				<br/>
+				<g:render template="form"/>
+				<br/>
+				<div align="center">
+					<g:submitButton name="create" class="btn btn-primary btn-label-left" value="${message(code: 'default.button.create.label', default: 'Create')}" />
+					<a href="./addLoan" class="btn btn-danger btn-label-left" style="margin-left: 20px">Cancel</a>
+				</div>
+			</g:form>
 		</div>
 	</div>
 </body>

@@ -6,6 +6,7 @@
 	<meta name="description" content="description">
 	<meta name="author" content="DevOOPS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="/SETNewScoop/js/plugins/jquery/jquery-2.1.0.min.js"></script>
 	<link href="/SETNewScoop/js/plugins/bootstrap/bootstrap.css" rel="stylesheet">
 	<link href="/SETNewScoop/js/plugins/jquery-ui/jquery-ui.min.css" rel="stylesheet">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
@@ -134,7 +135,7 @@
 						</a>
 						<ul class="dropdown-menu">
 							<li><a href="/SETNewScoop/loan/addLoan">เพิ่มข้อมูลสัญญาเงินกู้</a></li>
-							<li><a href="/SETNewScoop/loan/index">แก้ไขข้อมูลสัญญาเงินกู้</a></li>
+							<li><a href="/SETNewScoop/loan/editLoan">แก้ไขข้อมูลสัญญาเงินกู้</a></li>
 						</ul>
 					</li>
 				</sec:ifAnyGranted>

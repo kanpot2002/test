@@ -19,19 +19,19 @@ environments {
     development {
         dataSource {
             dbCreate = "validate" // one of 'create', 'create-drop', 'update', 'validate', ''
-            url = "jdbc:mysql://localhost/set_new_scoop"
+            url = "jdbc:mysql://localhost/set_new_scoop?characterEncoding=UTF-8"
         }
     }
     test {
         dataSource {
             dbCreate = "validate"
-            url = "jdbc:mysql://localhost/set_new_scoop"
+            url = "jdbc:mysql://localhost/set_new_scoop?characterEncoding=UTF-8"
         }
     }
     production {
         dataSource {
             dbCreate = "validate"
-            url = "jdbc:mysql://localhost/set_new_scoop"
+            url = "jdbc:mysql://localhost/set_new_scoop?characterEncoding=UTF-8"
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation
                jmxEnabled = true

@@ -47,5 +47,24 @@ class Loan {
     }
 
     static constraints = {
+        id nullable : true;
+        d_trans nullable : true;
+        d_begin nullable : true;
+        m_loan nullable : true;
+        q_month nullable : true;
+        m_paid_month nullable : true;
+        m_tot_return nullable : true;
+        i_guarantee1 nullable : true;
+        i_guarantee2 nullable : true;
+        m_saving nullable : true;
+        e_collateral nullable : true;
+        e_reason nullable : true;
+        f_status nullable : true;
+        d_close nullable : true;
+        f_special nullable : true;
+        q_time nullable : true;
+        m_int_close nullable : true;
+        m_repay nullable : true;
+        member nullable : true;
     }
 }
