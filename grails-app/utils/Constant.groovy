@@ -8,4 +8,6 @@ class Constant {
     public static int dale2 = 666;
     public static int dale2 = 666;
     public static int dale2 = 666;
+    public static int dale2 = 666;
+    public static int dale2 = 666;
 }
