@@ -21,6 +21,10 @@ class Loan {
     Double m_int_close;
     Double m_repay;
     Member member;
+    Double money_guarantee1;
+    Double money_guarantee2;
+    Double loan_saving;
+    Double loan_share;
 
 
     static mapping = {
@@ -44,6 +48,10 @@ class Loan {
         q_time column: "q_time" , sqlType: "int",length: 11
         m_int_close column: "m_int_close", sqlType: "double"
         m_repay column: "m_repay", sqlType: "double"
+        money_guarantee1 column: "money_guarantee1",sqlType: "double"
+        money_guarantee2 column: "money_guarantee2",sqlType: "double"
+        loan_saving column: "loan_saving",sqlType: "double"
+        loan_share column: "loan_share",sqlType: "double"
     }
 
     static constraints = {
@@ -66,5 +74,9 @@ class Loan {
         m_int_close nullable : true;
         m_repay nullable : true;
         member nullable : true;
+        money_guarantee1 nullable : true;
+        money_guarantee2 nullable : true;
+        loan_saving nullable : true;
+        loan_share nullable : true;
     }
 }

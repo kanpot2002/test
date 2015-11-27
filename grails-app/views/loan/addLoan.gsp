@@ -68,21 +68,30 @@
                 <table class="table table-striped table-bordered table-hover table-heading no-border-bottom">
                     <thead>
                     <tr>
-                        <th>เลขที่สัญญา</th>
-                        <th>วันที่เริ่มคืนเงิน</th>
-                        <th>วันที่ขอกู้เงิน</th>
-                        <th>จำนวนเงินขอกู้เงินสหกรณ์</th>
-                        <th></th>
+                        <th class="col-md-3">เลขที่สัญญา</th>
+                        <th class="col-md-2">วันที่เริ่มคืนเงิน</th>
+                        <th class="col-md-2">วันที่ขอกู้เงิน</th>
+                        <th class="col-md-3">จำนวนเงินขอกู้เงินสหกรณ์</th>
+                        <th class="col-md-2"></th>
                     </tr>
                     </thead>
                     <tbody>
                     <g:each in="${loans}" var="loan">
                     <tr>
                         <td>${loan.id}</td>
-                        <td><g:formatDate format="dd/MM/yyyy" date="${loan.d_trans}"/></td>
-                        <td><g:formatDate format="dd/MM/yyyy" date="${loan.d_trans}"/></td>
-                        <td><g:formatNumber format="###,###,###.00" number="${loan.m_loan}"/></td>
-                        <td><a class="btn btn-warning" href="./edit?id_loan=${loan.id}">แก้ไข</a></td>
+                        <td>
+                            <g:formatDate format="dd/MM/yyyy" date="${loan.d_trans}"/>
+                        </td>
+                        <td>
+                            <g:formatDate format="dd/MM/yyyy" date="${loan.d_trans}"/>
+                        </td>
+                        <td>
+                            <g:formatNumber format="###,###,###.00" number="${loan.m_loan}"/>
+                        </td>
+                        <td>
+                            <a class="btn btn-warning" href="./edit?id_loan=${loan.id}">แก้ไข</a>&nbsp;&nbsp;
+                            <a class="btn btn-danger" href="./edit?id_loan=${loan.id}&cancel=true">ยกเลิก</a>
+                        </td>
                     </tr>
                     </g:each>
                     </tbody>

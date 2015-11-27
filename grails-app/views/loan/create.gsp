@@ -16,7 +16,7 @@
 	</div>
 	<div class="well">
 		<div class="content scaffold-create" role="main">
-			<g:form class="form-horizontal" action="save">
+			<g:form class="form-horizontal" action="save" onsubmit="return validateForm();">
 				<h1 class="page-header">เพิ่มข้อมูลสัญญาเงินกู้</h1>
 				<g:render template="infoForm"/>
 				<br/>

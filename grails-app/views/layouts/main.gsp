@@ -165,6 +165,7 @@
 <script src="/SETNewScoop/js/plugins/tinymce/jquery.tinymce.min.js"></script>
 <!-- All functions for this theme + document.ready processing -->
 <script src="/SETNewScoop/js/devoops.js"></script>
+<script src="/SETNewScoop/js/validation.js"></script>
 </body>
 </html>
 
