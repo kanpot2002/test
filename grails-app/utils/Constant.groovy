@@ -4,4 +4,5 @@
 class Constant {
     public static int numGuarantee = 2;
     public static int maxGuaranteeBalance = 150000;
+    public static int besto = 111;
 }
